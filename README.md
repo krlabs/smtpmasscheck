@@ -8,7 +8,8 @@ Easy script on python for mass checking authorization on SMTP servers
 Script authomatic checking authorization connection with SMTP servers on ports 465/587. 
 
 For example output:
-
-$ python script.py credentials
-FAILED: xxxxx@xxxxx:xxxxxxx - SMTP Server: smtp.xxxx.xx - Port: 587
-SUCCESS: daudi@pearesgroup.com:Daudi.123 - SMTP Server: pearesgroup.com - Port: 465
+```
+$ python script.py credentials <br>
+FAILED: xxxxx@xxxxx:xxx - SMTP Server: smtp.xxxx.xxx - Port: 587 <br>
+SUCCESS: xxxxx@xxxxxx.xxx - SMTP Server: smtp.xxxx.xxx - Port: 465
+```
