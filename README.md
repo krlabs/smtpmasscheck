@@ -9,7 +9,7 @@ How to use?
 
 Script authomatic checking authorization connection with SMTP servers on ports 465/587. 
 
-For example:
+Example:
 
 ```
 $ python script.py credentials
