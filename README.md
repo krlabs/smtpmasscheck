@@ -12,7 +12,7 @@ Script authomatic checking authorization connection with SMTP servers on ports 4
 For example:
 
 ```
-$ python script.py credentials <br>
-FAILED: xxxxx@xxxxx:xxx - SMTP Server: smtp.xxxx.xxx - Port: 587 <br>
+$ python script.py credentials
+FAILED: xxxxx@xxxxx:xxx - SMTP Server: smtp.xxxx.xxx - Port: 587
 SUCCESS: xxxxx@xxxxxx.xxx - SMTP Server: smtp.xxxx.xxx - Port: 465
 ```
