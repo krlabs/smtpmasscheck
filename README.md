@@ -3,7 +3,7 @@ Easy script on python for mass checking authorization on SMTP servers
 
 How to use?
 
-1. Create combo txt list with SMTP credentials like: login|password|smtp_server|port
+1. Create combo txt list with SMTP credentials like: smtp_server|port|login|password
 2. Put file permissions: chmod +x script.py
 3. Run script: python script.py credentials
 
