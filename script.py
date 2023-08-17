@@ -31,7 +31,7 @@ def main():
     try:
         with open(auth_file, 'r') as file:
             for line in file:
-                login, password, smtp_server, port = line.strip().split('|')
+                smtp_server, port, login, password = line.strip().split('|')
                 port = int(port)  # Convert port to integer
                 result = check_smtp_auth(smtp_server, port, login, password)
                 if result is True:
