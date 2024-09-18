@@ -1,4 +1,4 @@
-# SMTP_Server_Mass_checker
+# SMTP Server Mass checker
 Easy script on python for mass checking authorization on SMTP servers
 
 How to use?
@@ -12,7 +12,7 @@ Script authomatic checking authorization connection with SMTP servers on ports 4
 Example:
 
 ```
-$ python script.py credentials
+$ python script.py credentials.txt
 FAILED: xxxxx@xxxxx:xxx - SMTP Server: smtp.xxxx.xxx - Port: 587
 SUCCESS: xxxxx@xxxxxx.xxx - SMTP Server: smtp.xxxx.xxx - Port: 465
 ```
